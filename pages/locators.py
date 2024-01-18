@@ -29,6 +29,7 @@ class ProductPageLocators():
     PRODUCT_NAME = (By.XPATH, '//div[contains(@class, "product_main")]//h1')
     PRODUCT_PRICE = (By.XPATH, '//div[contains(@class, "product_main")]//p')
     MESSAGE_SUCCESS = (By.XPATH, '//div[contains(@class, "alert-success")]')
+    BASKET_ALERT = (By.CSS_SELECTOR, ".alert-info")
 
 
 class BasketPageLocators():
